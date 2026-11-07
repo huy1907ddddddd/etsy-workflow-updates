@@ -1,0 +1,17 @@
+node_modules/
+__pycache__/
+*.pyc
+*.private.*
+.env
+.env.*
+*-token.*
+*credentials*
+*browser-profile*/
+logs/
+sessions/
+backups/
+workspace/
+*.sqlite*
+*.db
+!source.zip
+

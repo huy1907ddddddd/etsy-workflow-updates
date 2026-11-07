@@ -1,0 +1,844 @@
+{
+  "distribution_version": "2026.11.07.1",
+  "workflow_register_version": "V53",
+  "created_at": "2026-11-07T04:35:23.605176+00:00",
+  "repository": "https://github.com/huy1907ddddddd/etsy-workflow-updates",
+  "package": "source.zip",
+  "package_sha256": "3385f083d035ce976321c3467cc66b545b418981718f1aee4b2b8b2f402615bd",
+  "file_count": 137,
+  "scope": "Selected source only; existing Workflow3 installation required",
+  "local_binding_rule": "Files marked requires_local_binding_merge contain LOCAL_BINDING_/LOCAL_DESTINATION_REQUIRED placeholders. Preserve or map the receiving machine destinations before activation.",
+  "excluded": [
+    "private configs",
+    "credentials",
+    "accounts/profiles",
+    "databases",
+    "production data/assets",
+    "installed dependencies",
+    "live n8n workflow database"
+  ],
+  "files": [
+    {
+      "path": "config/apparel-listing-defaults.json",
+      "bytes": 6992,
+      "sha256": "3b0fa5b83e435dba186f9cd409d5982579ebd7ddf5aae98668e671c62c67025f",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "config/artwork-flow-prompts.json",
+      "bytes": 5141,
+      "sha256": "718f289dc8e92b218c80abb01a27e7224f58487cf7e3202be356c122bba03176",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "config/embroidery-front-back-mockups-v1.json",
+      "bytes": 59461,
+      "sha256": "b1eb4a9a793757711441434da3ab29015306afcfd8cc7399e2a4e2b8aa13063c",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "config/embroidery-front-back-mockups-v2.json",
+      "bytes": 101636,
+      "sha256": "e05b69c804ecb48d57357fef3154f3e1d711e27e859bdf2b4dc6f5c7fe100a87",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "config/embroidery-layout-standard.json",
+      "bytes": 10521,
+      "sha256": "690e7a77c1f95db47bdb45e0ec068866c02738ea1beb9892f84596ec4e24893f",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "config/embroidery-size-standard.json",
+      "bytes": 2206,
+      "sha256": "2ccbd3496743434635e608b0f6375651ccb18aa2d44f11865a53bf19289d2005",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "config/listing-seo-standard.json",
+      "bytes": 7002,
+      "sha256": "c5aec1e0fa818eb9ea46e7fc70bee9bb479c8c734ea8696d02bd6fc27343d4c7",
+      "requires_local_binding_merge": true
+    },
+    {
+      "path": "config/mockup-wardrobe-standard.json",
+      "bytes": 3505,
+      "sha256": "51351d2b395cd4c04aafa6c4d7f3df61dab02a2667bc0015580f8bc498e35c76",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "config/thumbnail-copy.json",
+      "bytes": 427,
+      "sha256": "44868ac9944ee3a01279d39fe35348c07fcdc8de4c27578a1f33edc649a02086",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "config/title-uniqueness.json",
+      "bytes": 187,
+      "sha256": "fd946e721f64b73bc005df1118d167b16a9b05266e89e5bd6a23be2aec26fe79",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "docs/CHUAN_KICH_THUOC_THEU.md",
+      "bytes": 2517,
+      "sha256": "6b629cb740507943971b4ca7811cf5cd22007bf5e40cab5c021f67476306ff9e",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "docs/direct-embroidery-prompt-to-mockup.md",
+      "bytes": 5240,
+      "sha256": "70b4a50a05e0e416af79f37af261e7d963af6100acc8d6ac442734479c75099a",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "docs/embroidered-apparel-six-mockups.md",
+      "bytes": 8885,
+      "sha256": "e9efb0ce5c6ce336cbe100dbd2ceb074de730b71a63f9ac703855a2aa564448a",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "docs/mockup-prompt-presets.md",
+      "bytes": 4210,
+      "sha256": "3c11f589c69b83f8d209651b3e0b65672deb7b790ebe2614eaae0c35d9660398",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/batch-worker/lark-listing.cjs",
+      "bytes": 17023,
+      "sha256": "4b08e88f9b29f97e5cc02db33546436f7a9ab8ae632bdf0f19584ebe69517c38",
+      "requires_local_binding_merge": true
+    },
+    {
+      "path": "scripts/batch-worker/runtime.cjs",
+      "bytes": 24487,
+      "sha256": "72c16071717c99bce9676b158a77e05247ed205230d18cdf14d387a8a18cea08",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/batch-worker/runtime.test.cjs",
+      "bytes": 27765,
+      "sha256": "a9806cd4392e5dbf358e975a63b4be11dfd00ddb73cf5e8f0c5c0c4575259623",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/batch-worker/thumbnail-server.cjs",
+      "bytes": 5427,
+      "sha256": "c8bc03b0eaa2fb49c8c63f366412c413ba444dc49acb8d755f9b2a2aa007de5c",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/batch_reference.py",
+      "bytes": 1340,
+      "sha256": "a04730ad9c60dbc7ef0279a10a020da79f29f3ccfed9ea3add09c7b9ba0786fb",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/chatgpt-worker/browser.cjs",
+      "bytes": 14649,
+      "sha256": "d54de5e78e812079204ba4b77e9c6fd8948bd9d28de33947301699454ea87c39",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/chatgpt-worker/login.ps1",
+      "bytes": 1502,
+      "sha256": "3ff967d6bdd685e690e1d87bdc4e4dcab4652e85364a1e79b7a5c649c1a32937",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/chatgpt-worker/runtime.cjs",
+      "bytes": 7612,
+      "sha256": "1c9cdff76813af690fd763f403ac57eb5d962b1f159eadcfae4de9c2395c775f",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/chatgpt-worker/runtime.test.cjs",
+      "bytes": 10173,
+      "sha256": "bdc43c13eb85ae511545cc14ba08d7836e83ae71f45df6b0e8365477a3dc7e95",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/chatgpt_image_orchestration.py",
+      "bytes": 19537,
+      "sha256": "ec68d670736f8101682ffc0a2f8b428e36eaa662cf69935bb1798be89fa1755d",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-batch-delete.py",
+      "bytes": 8022,
+      "sha256": "d8c2b8d5d07e611371c59c3bcc74f2a74a78327c855dddb2c595a5004582f94a",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-batch-reference.py",
+      "bytes": 5215,
+      "sha256": "4a366dc4a1c7b4072449b870f047920a390bb7a6d2358eea7a662fce2e61bc85",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-brief-intake.py",
+      "bytes": 7145,
+      "sha256": "4178b395d6f7d393965bb89658facc3d2668b2755d3ff54d2feb7bc19c2f534f",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-chatgpt-worker.py",
+      "bytes": 11191,
+      "sha256": "d69bd619eae4173476a95ce82792c9a121fa981179796119e374b1de19432430",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-design-prompt-pack.py",
+      "bytes": 10398,
+      "sha256": "9e965ccdc4279bff54863270903a89ab94357c740e488f35a2f50343c2370bb1",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-dual-front-back.py",
+      "bytes": 11738,
+      "sha256": "a90a31126668ab76a7a3c2a591b51b6819aacdc27ac577162fa7a84b09b746e1",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-embroidery-direct.py",
+      "bytes": 7757,
+      "sha256": "2cad079a04e60c81c22f06c9507e0e828ae2c1c032ca11d2953008e3d0e9eb5b",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-embroidery-layout.py",
+      "bytes": 23391,
+      "sha256": "2d7110f236031c79b7b1cac31f30ad9b8247e6e8b091756105c3ff2574fe9e46",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-embroidery-region-map.py",
+      "bytes": 3634,
+      "sha256": "0c9ace61d58152ab2a3bc5ccbe798e2f9152a93b06594b4688d6b2d8641929da",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-export-bridge.py",
+      "bytes": 1869,
+      "sha256": "e3756613667ee92277ceb47561b344441ea44f9a0cdebcecdc703a2f22ba57c8",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-flow-auto-submit.py",
+      "bytes": 29870,
+      "sha256": "de6bf090a552ca278ad207f3aa8d4357705464db08731a1ae0067e85e9dcb232",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-flow-generation-retry.py",
+      "bytes": 2410,
+      "sha256": "e81dd55bb33ac3da22c4ff2e265d27afa7f2a6c00620ac0da9e234369038c106",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-flow-lark-orchestration.py",
+      "bytes": 24384,
+      "sha256": "29a4dee1a654fd89641758340e520d8003c57349bd3a7db956324c1c762f5673",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-flow-logo-calibration.py",
+      "bytes": 2655,
+      "sha256": "eb6f5a251204f75bb8e6cba637e743e9b8c77ebfb9ba16c6026c6a1ac31fe624",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-flow-worker-pool.py",
+      "bytes": 20209,
+      "sha256": "f8746f59cee615f4fd3a7bd293667a13624092b9cc29088e81379e1abe3daef8",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-google-delivery.py",
+      "bytes": 15161,
+      "sha256": "d436d0caa5dbb292adc38b97df22fd44a00964aae1e31a90d395882dc3787913",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-kpi-sync.py",
+      "bytes": 12508,
+      "sha256": "b4159c7557998237c5237145496028b2629d131303a9e79d138bcdbb1beaf09d",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-local-delivery.py",
+      "bytes": 5574,
+      "sha256": "706799fd5763f16fce949d5488f20fc339945fba51038b2765c0d67cd3ee5229",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-mockup-presets.py",
+      "bytes": 6666,
+      "sha256": "8938cbe2625261b9017f25af9e2049156ac02b733a0424f007527170d5a8905e",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-pajama-set.py",
+      "bytes": 5141,
+      "sha256": "66d60ff871274998d561a68a89e06d5dbec97f1d053bf5b0026abfdc24d3816f",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-production-batch.py",
+      "bytes": 76914,
+      "sha256": "bb9877e2d5362dff6b56c33440d24cdb8fb76850497b4924e430f4abecf8d8e3",
+      "requires_local_binding_merge": true
+    },
+    {
+      "path": "scripts/check-production-design.py",
+      "bytes": 18215,
+      "sha256": "f5521ddcfe483a29deb85d4119e8ed92926dc43c2acf83d221f3dea9c28015f7",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-production-engine.py",
+      "bytes": 12850,
+      "sha256": "933a4c7d0f2ba4d4fa0984dddf83dd72edd2eab8fbef19b26f6ebe5822b99317",
+      "requires_local_binding_merge": true
+    },
+    {
+      "path": "scripts/check-sequential-kpi.py",
+      "bytes": 9801,
+      "sha256": "4e4992e9b706085a4359fcf921563ad232e03d51b05805c66dd0bec069af272a",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-thumbnail-copy.py",
+      "bytes": 8695,
+      "sha256": "ecae7631e4a64a34069b23b3761065a6e15c8a1d8c726aaf7eaa0959d69a4e41",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-title-uniqueness.py",
+      "bytes": 5389,
+      "sha256": "445bdec46831e1a4051bfe4d8f870141fea5a2ea90df8ef2046248a495af3b21",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/check-workflow3.py",
+      "bytes": 51292,
+      "sha256": "beb859105d7b34991b71f6a38a6586bec4249ffa4409b6ed63360dc95e11f847",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/codex-keyword-worker.cjs",
+      "bytes": 26207,
+      "sha256": "afa4cb2429b81553b26f5c6c52e40dc8ed41540980ed0259f4374e0ce2afad93",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/codex-listing-worker.cjs",
+      "bytes": 8192,
+      "sha256": "47af9be2b67658921f14cc9055f02379e7e209d42f578459d6dbfb40381a414f",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/codex-pilot-bridge.cjs",
+      "bytes": 3914,
+      "sha256": "bf8684ab0edf88e2a64b6cd526790d61d1e7f1cb95382e837eebd637c5039632",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/codex-title-description-worker.cjs",
+      "bytes": 7356,
+      "sha256": "b4038bf0f785be402b20f4711bc7b2733297ee0a232abbc9b58f7ecf37c7bfaf",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/codex-title-description-worker.test.cjs",
+      "bytes": 4790,
+      "sha256": "29ffb7b904bc630b0a2a11fa287dc6d08bab1d90bfe93253f75729ce6534e44b",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/delivery_layout.py",
+      "bytes": 13389,
+      "sha256": "46851e6a8774184fd5270547306f97c5252e29ec2b29b32992d9bd997e3c8f0b",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/embroidery_direct.py",
+      "bytes": 5433,
+      "sha256": "bccc8d37447fcd2753c157f1d8ad9e3748f8f5f11793ecf15c5a8d9f1b8e8e07",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/embroidery_layout.py",
+      "bytes": 14357,
+      "sha256": "578f0661c5e79292ba2c05567c803754f071c4bf16ef40a099a701aef8b5fbdf",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/embroidery_mockup_layout.py",
+      "bytes": 3666,
+      "sha256": "15394410488f828b513386975f3f73c87546b703e099731b25f8efc20a751199",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/embroidery_region_map.py",
+      "bytes": 2948,
+      "sha256": "4ae45e5286216b0e9adba6188e214bbbf3ab9dc95f438024f72d96c4395875f6",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/flow-worker/coordinator.cjs",
+      "bytes": 14822,
+      "sha256": "d82a2f1591f0700fcbdd5e2169f9d0aec2d0e859cf803f13a7bdef5610929a1a",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/flow-worker/coordinator.test.cjs",
+      "bytes": 11796,
+      "sha256": "c7634d02c16cd9bf538c94d88caf202854d895f9f633a1981c0a9d2b82ba4517",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/flow-worker/flow-browser.cjs",
+      "bytes": 88491,
+      "sha256": "dac82cccfe535c4ed94395885e88469ab10fd680051ed57c3f7542d87d6aa068",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/flow-worker/flow-browser.test.cjs",
+      "bytes": 108998,
+      "sha256": "2916ae995b84b663764dd4ea759f37a373d83699e034c9093fa5fe9cbcb43a39",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/flow-worker/gologin.cjs",
+      "bytes": 2107,
+      "sha256": "ef4a005820755a1121b7610397192de6d59fa90da91ea6410fbd8a66a12630c6",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/flow-worker/gologin.test.cjs",
+      "bytes": 3950,
+      "sha256": "433a9d06ef3e4d72ee339aefca14d393aa6c6036507c18fa497649b9b064a821",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/flow-worker/native-n8n.cjs",
+      "bytes": 7607,
+      "sha256": "9b9fd3cd8b56f579d518f14b1aca710603694f26779a0f4626b4cb9baa295b2c",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/flow-worker/native-n8n.test.cjs",
+      "bytes": 11628,
+      "sha256": "14ec3b84a47724131deeb15939c6678fa04b8afcf51f7fb9e24d38ed83ac8f13",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/flow-worker/package-lock.json",
+      "bytes": 1168,
+      "sha256": "605e8d1753821b9348819a983a29fbdf2c628efdeb3b495bec619d905711f1ea",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/flow-worker/package.json",
+      "bytes": 350,
+      "sha256": "50a3ad0fede2a39691686273a7b4a2637844a63cde5aa62564b1427092cc7a9c",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/flow-worker/pool.cjs",
+      "bytes": 4726,
+      "sha256": "560ad80117e02c20b714bce4fbc8107e84595258432a0ceae30545a73a5f5a86",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/flow-worker/pool.test.cjs",
+      "bytes": 4349,
+      "sha256": "45cfc9ebdf56ef91b4a009898cdbca3db0e749cd173ba1ef7aa9fcfd1ede356a",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/flow-worker/runtime.cjs",
+      "bytes": 72850,
+      "sha256": "3d55924babf5777817690f60805ee88c363229cc3d202d383dd6fa46ebb4718c",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/flow-worker/runtime.test.cjs",
+      "bytes": 102927,
+      "sha256": "af14eae3ea2ddf122f3fd6902f2f5e3b90f4c436fa07542e6617d6e19489411b",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/flow-worker/start-worker.ps1",
+      "bytes": 3348,
+      "sha256": "46beebb512bbb5bb909e9e2e9ddb95bfc556e5fc42921ff5312dce0870f10c07",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/flow-worker/status-worker.ps1",
+      "bytes": 343,
+      "sha256": "9b4ef1d97e7be4f17bd63fbb3cc218aaa0ad3a1b96dedababc1ccaabeb1d7b87",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/flow-worker/stop-worker.ps1",
+      "bytes": 754,
+      "sha256": "4fc6549e6e6c5c47c6b7fb807c3f592fd0e9f44a3cd3b6afc137e5a7728eb6b1",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/flow-worker/supervisor.cjs",
+      "bytes": 11614,
+      "sha256": "62cd8fc10c49f458f3eb5df91b9f360237b6babd5a7d8fa9999d53b951028534",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/flow-worker/supervisor.test.cjs",
+      "bytes": 9044,
+      "sha256": "6a21f94ec3f728f1f342605b2f16bb8ac19fbb0394408133c867789a319711f6",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/flow_lark_orchestration.py",
+      "bytes": 39415,
+      "sha256": "d8d68c99a5e58fa2e7c9f551b11ff5f653fa2dee86c0c7380b6632e91b594c28",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/flow_worker_pool.py",
+      "bytes": 20208,
+      "sha256": "e247749d631ec289f2ac767c6acdecad2e424b6ba1db1b782c75d1305efcfbae",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/google_delivery.py",
+      "bytes": 17940,
+      "sha256": "d3ba0ff836ebf092bf949b8f824706ca37351be8e63a94596e88a945f2aeafa6",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/kpi-worker/lark-sheet.cjs",
+      "bytes": 14171,
+      "sha256": "54d69901b4bedc3cabe0a2b207c109f9618c4a4cd5709422e394acceb5ca1a8c",
+      "requires_local_binding_merge": true
+    },
+    {
+      "path": "scripts/kpi-worker/lark-sheet.test.cjs",
+      "bytes": 8484,
+      "sha256": "e0e220636df96cb50ad06329e3dfb7ed872697af6b3d878f38350c9447eeb0f9",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/kpi-worker/readback-server.cjs",
+      "bytes": 2366,
+      "sha256": "87fb02f1db6692f1240e760af8eb7819acfaf6721b09d8390892ca3badaef153",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/kpi-worker/readback-server.test.cjs",
+      "bytes": 1908,
+      "sha256": "5b7392f14737d1eb1e9931133778429e798bc59584804c812385beea21e3d67d",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/kpi-worker/runtime.cjs",
+      "bytes": 15842,
+      "sha256": "efcefdf1190dbe039c6a42a62c93a84f8691d96f891651fcb508275f8d38fb0d",
+      "requires_local_binding_merge": true
+    },
+    {
+      "path": "scripts/kpi-worker/runtime.test.cjs",
+      "bytes": 13624,
+      "sha256": "6d3c40168c1366bd46381c6973dac65e305e6bb570a5262b4b19c11a448eeb67",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/kpi_sync_orchestration.py",
+      "bytes": 16572,
+      "sha256": "b404b34b516fc2f54f8d7cbff95077ec3c584f370ee5a24e89a876f1d6e7f59f",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/lark-review/batch.cjs",
+      "bytes": 32809,
+      "sha256": "1db6b92c301305597380b98883bcc4703a9d5b430eaffe93ce8858191529ccdc",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/lark-review/batch.test.cjs",
+      "bytes": 16404,
+      "sha256": "034ed556bd536d1ab63866b6e66606fd1cb31b9ba78cfece813a25b41302fd7f",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/lark-review/cards.cjs",
+      "bytes": 6472,
+      "sha256": "b6569416e8dfafdcc626410dd4946ab33d0cf651e1b8a48d48089f56cf3b1f46",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/lark-review/cards.test.cjs",
+      "bytes": 8558,
+      "sha256": "e58d02a5be2d4b7ab9aa9dccbf4ef1fa97da5ea98a789dcf0d5385327a2903d9",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/lark-review/config.example.json",
+      "bytes": 419,
+      "sha256": "12807b23b384cf1357814ba5053560ee8555b2a46bf8e229f5744bb1be45d719",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/lark-review/delete-batch-messages.cjs",
+      "bytes": 1320,
+      "sha256": "7abaa3fe407e137caf3cc4c95f4021f902f342136528fa3531e6157c80ca5635",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/lark-review/package-lock.json",
+      "bytes": 22630,
+      "sha256": "368b4f773cdba3b71f6932f0fd7ac6a0106270a6ec83686c8512a7d035950d0c",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/lark-review/package.json",
+      "bytes": 302,
+      "sha256": "4cfd54c3d4d25d2d8ab262bf56e2ed08ea70593c680f196574bf2062f538c8da",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/lark-review/pair.cjs",
+      "bytes": 3744,
+      "sha256": "600fd9a5387da6a64c7e01fd77bd5a3fbf40864157d18608c54710a724777576",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/lark-review/pair.test.cjs",
+      "bytes": 2595,
+      "sha256": "d23758f2db6b46edb0784a218c8d5ae6b04f91c5afc462b6735325f68d14de71",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/lark-review/review.cjs",
+      "bytes": 18823,
+      "sha256": "5c462dae61f000ceee05d6a8c53dab448ec2a3bb5de9c004a06d70850657eb55",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/lark-review/review.test.cjs",
+      "bytes": 12515,
+      "sha256": "bef45b9e8e32dd6f79485a161f8de69971d6d8810a99af49f9ceb89cbf1ac75b",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/lark-review/service.cjs",
+      "bytes": 15290,
+      "sha256": "031a232d533949e7d80a185b85bebaf615a6fce046e0f3ec10f06a099bd10e4c",
+      "requires_local_binding_merge": true
+    },
+    {
+      "path": "scripts/lark-review/workflow3.cjs",
+      "bytes": 3548,
+      "sha256": "767769fc0a4587c04305665b99a4928957656e59ef988d5ec8f0aac217fdaea3",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/lark-review/workflow3.test.cjs",
+      "bytes": 8353,
+      "sha256": "5566b3d96717f9a945640e79100c9299105dde73f568545ca273740da2031357",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/local_delivery.py",
+      "bytes": 6208,
+      "sha256": "03ac13f3a3725ebdc52e4acd8a71beeb454151e786b22d99388dd44e8fb97ae0",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/mockup_prompt_sets.py",
+      "bytes": 3735,
+      "sha256": "b0a1de1bfaaee0b0f3e3b87575a2b9fc63ab1b8234ef1971792936515688ce6e",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/pajama_set.py",
+      "bytes": 4815,
+      "sha256": "886bc51efe9f3d1798defb9de17afcf5ff902b5d84828385769b6f327b9bfa01",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/production-engine.py",
+      "bytes": 78541,
+      "sha256": "bbc5bc7317c8f7b603864f72605efc281eddb6579afcd0c3b9a83a8fa83980bd",
+      "requires_local_binding_merge": true
+    },
+    {
+      "path": "scripts/production-worker.cjs",
+      "bytes": 1271,
+      "sha256": "45e291eee9dddf307b2ea5aaccf4f16d6beba4f051b815913702c60c4acfccc8",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/production_batch.py",
+      "bytes": 87429,
+      "sha256": "fc63118c3928631fb2a3f014a7ffbcac085c645738baefb687321a8037eecec6",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/production_batch_controls.py",
+      "bytes": 22804,
+      "sha256": "bde31e9f3ee5cd4d8af48f3ae7e83503bd3b210b36b31f98079b9195813a6fb6",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/production_batch_delete.py",
+      "bytes": 9692,
+      "sha256": "ea3f9056644cc6c6b668163f14df2bb6c6379e8ff49a8dca45efd46c410456a0",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/production_design.py",
+      "bytes": 39377,
+      "sha256": "ab500c360c5f99c992e8828cccd75a768362840123d2d7818ef79a14f0c74c3b",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/production_profiles.py",
+      "bytes": 35441,
+      "sha256": "ce44d7ad49b324092c89919b8a425174dd1b0db60aa1d182c999e0cf6a33ec4c",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/review-transport.cjs",
+      "bytes": 465,
+      "sha256": "5c2871c4af473a10f4eec05342350fff3001c3f2fa171314faaf83d2229f356d",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/review_transport.py",
+      "bytes": 958,
+      "sha256": "a2c1de18eaad3cca297d4413ab2c0e356de9128e31cd1d23e8efb9ee1828c8ee",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/telegram-review/service.cjs",
+      "bytes": 15501,
+      "sha256": "22e4222194b941ce30b9795f11d1dbed738cf747d50beb2bab333ec4c5ec1aa1",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/telegram-review/service.test.cjs",
+      "bytes": 8221,
+      "sha256": "29a8420aa909899517c0d40b73d885db792d5a745434e33694a681da76a65c03",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/thumbnail_copy.py",
+      "bytes": 13862,
+      "sha256": "8fd3c904a3869f09a5e023c6bebf3f92bc36c6b14a53d890b91e58e75e4d22ba",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/title_uniqueness.py",
+      "bytes": 3605,
+      "sha256": "ac332d14d1426406fcb5f9d6d1c4c3d3a0421cdbc56b7ca8e895e84177743ace",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/web-review/disabled-chrome.test.cjs",
+      "bytes": 3144,
+      "sha256": "ab7c85f5471d98b4e79dd2a88220f9d727bf0af85677500fa41e8bc545fc276f",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/web-review/mockup-presets.cjs",
+      "bytes": 1290,
+      "sha256": "86bdad9b39c3ea4d83953cfa3144ec70835fe68a94c3b5c6d7156147d934d1ab",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/web-review/package-lock.json",
+      "bytes": 6844,
+      "sha256": "e512b8dbf04ae64a9606315a759a21a460eee20fbfb81ce609fefbd62dbc997e",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/web-review/package.json",
+      "bytes": 183,
+      "sha256": "ca49237721575e010b4c3bfe79add3b578a6c479d099ac2020379856bba4e124",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/web-review/public/app.js",
+      "bytes": 30371,
+      "sha256": "8b1142ab3fdfa915c8b8a945b4d5b6eef11abe26e768587939bb3880987b14c6",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/web-review/public/icon.svg",
+      "bytes": 335,
+      "sha256": "6e0f740818e5886e463ff2f770046b90318596c3f56db951cd277d4448ae8531",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/web-review/public/index.html",
+      "bytes": 9672,
+      "sha256": "1415dffd8822ad55a516ecf94ee3d5b222814fdd2680ce55d26fea402a10a9c7",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/web-review/public/style.css",
+      "bytes": 13579,
+      "sha256": "3ecd94109e1d808cd8564fba99984373f7da70e792f398994089396736bdfc3f",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/web-review/public/sw.js",
+      "bytes": 659,
+      "sha256": "52e087b8aafc155a08cd2901a857d2646a1cf33847dc96c057e9a67e0b08be23",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/web-review/reference-optional.test.cjs",
+      "bytes": 4772,
+      "sha256": "c81f3e330d96132fc2fce68b3fb7d4d3c00ef42b8a42ee549b1125c8d1a3e644",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/web-review/service.cjs",
+      "bytes": 26849,
+      "sha256": "80eb87713214b8e62c1fbe3c182516413bfbed7c97d29e141b3855ca46bd51b0",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/web-review/service.test.cjs",
+      "bytes": 22645,
+      "sha256": "a201ef7f13776910dec7f782580a9b89581e8041693dbfa899f18206035a64f9",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/web-review/setup.cjs",
+      "bytes": 1191,
+      "sha256": "356e56481ae5779f9d6e6a58782bb64e8121a0566042fe5229978cfddfaa9249",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/web-review/snapshot.py",
+      "bytes": 3805,
+      "sha256": "c2f66506ae4a082df74e0ff32aaa1a8d4c1f2ac6ae6881f9a72b856ff86cb132",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/workflow-error-stop.cjs",
+      "bytes": 1391,
+      "sha256": "80fb0ccb774425f3faa57e1736fd2aab9a6ffeae6cd698163d7aef5d22d47d04",
+      "requires_local_binding_merge": false
+    },
+    {
+      "path": "scripts/workflow-error-stop.test.cjs",
+      "bytes": 1909,
+      "sha256": "c4d251698c7d50d868c333d981143594890dd635be366b08197d40fd2d6fc1fa",
+      "requires_local_binding_merge": false
+    }
+  ]
+}
